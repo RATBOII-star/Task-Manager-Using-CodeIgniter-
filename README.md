@@ -32,5 +32,17 @@ CREATE TABLE IF NOT EXISTS tasks (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
----
+```
+## Here are the php file to look for in the project
+* login_view.php
+* tasks_view.php
+* register_view.php
+* edit_task_view.php
+* TaskModel.php
+* UserModel.php
+* TaskController.php
+* Auth Controller.php
+* Routes.php
 
+## Note
+Make Sure CodeIgniter 4 is Installed in your device
